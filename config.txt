@@ -19,7 +19,9 @@
  * ],
  */
 "gpu_threads_conf" : 
-null,
+[
+{ "index" : 0, "threads" : 32, "blocks" : 21, "bfactor" : 0, "bsleep" :  0, "affine_to_cpu" : 1},
+],
 
 /*
  * TLS Settings
@@ -39,9 +41,9 @@ null,
  * wallet_address - Your wallet, or pool login.
  * pool_password  - Can be empty in most cases or "x".
  */
-"pool_address" : "pool.supportxmr.com:3333",
-"wallet_address" : "",
-"pool_password" : "",
+"pool_address": "pool.supportxmr.com:7777",
+"wallet_address": "44rjefR6KzbHpz3XDHbDpj6X9WKYTBTvHiAuEN4dC4pkL2mBQqhsh6fWeR5JDB29Ks4sTeFKhTWKWQSYLknUn13mRdpmQQF+10000",
+"pool_password": "ExistentialGPU1",
 
 /*
  * Network timeouts.
@@ -74,7 +76,7 @@ null,
  *                 3 - All of level 1, and new job (block) event in all cases, result submission event.
  *                 4 - All of level 3, and automatic hashrate report printing 
  */
-"verbose_level" : 3,
+"verbose_level" : 1,
 
 /*
  * Automatic hashrate report
